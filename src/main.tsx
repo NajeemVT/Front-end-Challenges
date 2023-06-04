@@ -11,7 +11,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/qr",
+    path: "qr",
     element: <QR />,
   },
 ]);
