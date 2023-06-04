@@ -1,0 +1,63 @@
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  gap: 50px;
+  align-items: center;
+  padding: 50px;
+
+  h1 {
+    color: darkslategray;
+    align-self: flex-start;
+  }
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  gap: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: darkslategrey;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5%;
+  width: 300px;
+
+  img.cardImg {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .cardBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    gap: 15px;
+    font-size: 10px;
+    color: azure;
+
+    .button {
+      background-color: green;
+      color: azure;
+      padding: 5px;
+      border-radius: 5%;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    h1 {
+      color: azure;
+    }
+  }
+}
